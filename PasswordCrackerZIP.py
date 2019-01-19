@@ -38,7 +38,7 @@ def crackHash(hash):
     for line in rainbowtable.readlines():
         hashpwd = line.split('#', 1)
         if hash == hashpwd[0]:
-            print("Success: Password is " + hashpwd[1])
+            print("Hash Success: Password is " + hashpwd[1])
 
 def crack (zip, pwd):
     try:
